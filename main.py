@@ -37,7 +37,7 @@ telefono = "666035940"
 email = "n.catalros@gmail.com"
 
 acceso_vehiculos = False
-matricula = "4717JTJ"
+matricula = "1234ABC"
 
 url_albergues = "https://www.caib.es/albergsfront"
 
