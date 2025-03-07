@@ -11,6 +11,9 @@ Asegúrate de tener instalado Python 3.11.9. Luego, instala las librerías neces
 pip install selenium
 ```
 
+### Firefox
+El script usa Firefox, el cual has de tener instalado.
+
 ### Geckodriver
 El script usa Firefox como navegador y requiere `geckodriver.exe`, que ya está incluido en el repositorio. No necesitas instalarlo aparte.
 
