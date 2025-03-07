@@ -25,7 +25,7 @@ python script.py
 ```
 
 ## Parámetros utilizados
-El script necesita los siguientes datos:
+El script necesita los siguientes datos, en el archivo main.py vienen declarados como variables al principio del programa, se pueden modificar ahí:
 
 - **check_stock:**
   - Refugio a reservar
@@ -48,6 +48,7 @@ El script necesita los siguientes datos:
 - **Error al encontrar elementos en la página:** Asegúrate de que la página no ha cambiado su estructura HTML. En caso de fallos, inspecciona los selectores de los elementos y ajústalos.
 - **Problemas con Geckodriver:** Si el script no encuentra Geckodriver, asegúrate de que el archivo `geckodriver.exe` está en la misma carpeta que el script.
 - **Permisos en Linux/Mac:** Si usas un sistema Unix, puede que necesites dar permisos de ejecución a Geckodriver:
+  
 
   ```sh
   chmod +x geckodriver
